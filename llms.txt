@@ -1,0 +1,41 @@
+# Uladzislau Rybakou - Backend / Full Stack Engineer
+
+> Backend-focused Software Engineer with 5+ years of experience specializing in Node.js (TypeScript, NestJS), PostgreSQL, high-performance distributed systems, and AI-driven development workflows. Available for full-time roles.
+
+## Contact Information
+- Website: https://rybakou.com/
+- Email: rybakou.uladzislau@gmail.com
+- Location: Tbilisi, Georgia
+- GitHub: https://github.com/rybakouvlad
+- LinkedIn: https://www.linkedin.com/in/rybakou
+- Telegram: https://t.me/UladzislauR
+
+## Core Technical Skills
+- Languages: TypeScript, JavaScript, SQL
+- Backend Frameworks: Node.js, NestJS, Express, REST APIs
+- Databases & Queues: PostgreSQL, ClickHouse, Redis, Kafka, BullMQ
+- AI & Agentic Workflows: AI Agents, Claude, Antigravity IDE, Custom Skills, Cursor
+- DevOps & Testing: AWS (RDS, SQS, ECS, Lambda), Docker, CI/CD (GitHub Actions, GitLab CI), Jest, Git
+
+## Work Experience
+
+### Backend Developer | Blask (Jul 2024 — Jun 2026)
+- Database Engineering & Migrations: Managed complex PostgreSQL schemas, optimized analytical queries, and executed secure database updates across microservices.
+- System Integrations: Engineered resilient cross-system integration pipelines using Kafka, BullMQ, and Redis with Dead Letter Queues (DLQ).
+- Architecture & Testing: Developed scalable REST APIs with NestJS/TypeScript and comprehensive unit/E2E test suites (Jest).
+- AI-Driven Development: Utilized agentic AI workflows (Antigravity IDE, Claude) to accelerate infrastructure refactoring and automated code extraction.
+
+### Full Stack Developer | DIBSCapital (Jun 2022 — Jun 2024)
+- Third-Party Integrations: Connected internal core systems with North Capital KYC, InvestReady, Stripe for secure data flow.
+- Cloud Infrastructure: Managed Node.js backend services on AWS (ECS, Lambda, RDS).
+- Feature Delivery: Built full-stack solutions combining Node.js backend with React frontend interfaces.
+
+### Backend Developer | Nublecraft (Apr 2021 — Jun 2022)
+- System Modernization & API Development: Refactored legacy codebases and built reliable REST APIs with Node.js.
+
+### Live Video Streaming Engineer | Specmedia (Mar 2017 — Jun 2020)
+- Infrastructure Management: Maintained live video streaming infrastructure and network pipelines.
+
+## Education
+- Engineer (Information Technologies & Systems in Logistics), BSUIR IIT, Minsk (2008 — 2013)
+- Rolling Scopes School (2019 — 2020)
