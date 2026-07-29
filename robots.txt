@@ -1,4 +1,23 @@
 User-agent: *
 Allow: /
 
+# AI Bot Access Rules
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Content Signals
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+
 Sitemap: https://rybakou.com/sitemap.xml
