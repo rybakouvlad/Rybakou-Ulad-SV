@@ -57,4 +57,18 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }, 100);
+
+    // Ensure anchor clicks immediately activate target sections
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function () {
+            const hash = this.getAttribute('href');
+            if (hash.length > 1) {
+                const target = document.querySelector(hash);
+                if (target) {
+                    target.classList.add('active');
+                    target.querySelectorAll('.reveal').forEach(child => child.classList.add('active'));
+                }
+            }
+        });
+    });
 });
