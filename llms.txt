@@ -51,11 +51,11 @@
 ### SplitBot (SplitBill) — Shared Expense Splitting ([botsplit.com](https://botsplit.com))
 - Role: Creator & Full-Stack Engineer
 - Status: Production / Live
-- Tech: TypeScript, Next.js, PostgreSQL, Redis, WebSockets, Multimodal AI (VLM), Cloudflare, Telegram Mini App
+- Tech: TypeScript, Next.js, Python (FastAPI), PostgreSQL, Redis, WebSockets, Multimodal AI (VLM), Cloudflare, Telegram Mini App
 - Description: Production-grade Telegram Mini App and bot for collaborative group expense splitting with zero-onboarding (HMAC initData). Features Multimodal Vision AI OCR receipt extraction and multi-language dish translation in a single inference pass, real-time WebSocket item claiming, multi-currency conversions, and an automated debt-simplification algorithm that minimizes settlement transfers between participants. Fully localized in 21 languages.
 
 ### NeyroNews — Autonomous AI News Pipeline ([neyronews.com](https://neyronews.com))
 - Role: Creator & System Architect
 - Status: Production / Live
-- Tech: System Architecture, PostgreSQL (pgvector), LLM Pipelines, Telegram Bot API, Docker
+- Tech: Python, PostgreSQL (pgvector), LiteLLM, LLM Pipelines, Telegram Bot API, Docker
 - Description: Autonomous multi-agent news curation and broadcasting pipeline delivering technical AI news. Features continuous RSS/web scraping, semantic deduplication via vector embeddings (pgvector cosine similarity) and SHA-256 hashing, a two-stage LLM evaluation funnel (cheap triage scoring + flagship post synthesis), Human-in-the-Loop (HITL) moderation via Telegram inline buttons, and a scheduled publishing grid with PostgreSQL row-level concurrency control (`FOR UPDATE SKIP LOCKED`).
