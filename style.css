@@ -291,6 +291,18 @@ header {
     border: 1px solid var(--border-color);
 }
 
+/* Inline code — subtle pill matching the skill tags */
+li code, p code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.82em;
+    background: var(--tag-bg);
+    color: var(--tag-text);
+    padding: 2px 7px;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    white-space: nowrap;
+}
+
 .tag:hover {
     background: var(--accent-color);
     color: #fff;
