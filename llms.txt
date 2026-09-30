@@ -1,6 +1,6 @@
 # Uladzislau Rybakou - Backend / Full Stack Engineer
 
-> Backend-focused Software Engineer with 5+ years of experience specializing in Node.js (TypeScript, NestJS), distributed systems, and modern AI engineering. Creator of production platforms including Stsezhka (geospatial outdoor route-planning workspace), SplitBot (real-time multimodal AI expense splitting Telegram Mini App), and NeyroNews (autonomous AI news pipeline with vector deduplication). Available for full-time roles.
+> Backend-focused Software Engineer with 5+ years of experience specializing in Node.js (TypeScript, NestJS), PostgreSQL, high-performance distributed systems, and AI-driven development workflows. Available for full-time roles.
 
 ## Contact Information
 - Website: https://rybakou.com/
@@ -42,7 +42,7 @@
 
 ## Featured Projects
 
-### Stsezhka — Outdoor Route-Planning Workspace
+### Stsezhka — Outdoor Route-Planning Workspace ([stsezhka.com](https://stsezhka.com))
 - Role: Creator & Core Architect
 - Status: Active Project
 - Tech: TypeScript, Node.js, Turborepo, Mapbox / OpenStreetMap, Geospatial / GPX, REST API
@@ -52,7 +52,7 @@
 - Role: Creator & Full-Stack Engineer
 - Status: Production / Live
 - Tech: TypeScript, Next.js, PostgreSQL, Redis, WebSockets, Multimodal AI (VLM), Cloudflare, Telegram Mini App
-- Description: Production-grade Telegram Mini App and bot for collaborative group expense splitting with zero-onboarding (HMAC initData). Features Multimodal Vision AI OCR receipt extraction and multi-language dish translation in a single inference pass, real-time WebSocket item claiming, multi-currency conversions, and an optimal greedy debt simplification algorithm reducing settlements to at most N−1 transactions. Fully localized in 21 languages.
+- Description: Production-grade Telegram Mini App and bot for collaborative group expense splitting with zero-onboarding (HMAC initData). Features Multimodal Vision AI OCR receipt extraction and multi-language dish translation in a single inference pass, real-time WebSocket item claiming, multi-currency conversions, and an automated debt-simplification algorithm that minimizes settlement transfers between participants. Fully localized in 21 languages.
 
 ### NeyroNews — Autonomous AI News Pipeline ([neyronews.com](https://neyronews.com))
 - Role: Creator & System Architect
