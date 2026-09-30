@@ -356,8 +356,33 @@ li strong {
     margin-bottom: 15px;
 }
 
+.mt-10 {
+    margin-top: 10px;
+}
+
 .mt-15 {
     margin-top: 15px;
+}
+
+.project-desc {
+    font-size: 14.5px;
+    color: var(--text-secondary);
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.job-company a {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.job-company a:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
 }
 
 /* Floating Actions */

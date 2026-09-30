@@ -1,6 +1,6 @@
 # Uladzislau Rybakou - Backend / Full Stack Engineer
 
-> Backend-focused Software Engineer with 5+ years of experience specializing in Node.js (TypeScript, NestJS), PostgreSQL, high-performance distributed systems, and AI-driven development workflows. Available for full-time roles.
+> Backend-focused Software Engineer with 5+ years of experience specializing in Node.js (TypeScript, NestJS), distributed systems, and modern AI engineering. Creator of production platforms including Stsezhka (geospatial outdoor route-planning workspace), SplitBot (real-time multimodal AI expense splitting Telegram Mini App), and NeyroNews (autonomous AI news pipeline with vector deduplication). Available for full-time roles.
 
 ## Contact Information
 - Website: https://rybakou.com/
@@ -12,10 +12,10 @@
 
 ## Core Technical Skills
 - Languages: TypeScript, JavaScript, SQL
-- Backend Frameworks: Node.js, NestJS, Express, REST APIs
-- Databases & Queues: PostgreSQL, ClickHouse, Redis, Kafka, BullMQ
-- AI & Agentic Workflows: AI Agents, Claude, Antigravity IDE, Custom Skills, Cursor
-- DevOps & Testing: AWS (RDS, SQS, ECS, Lambda), Docker, CI/CD (GitHub Actions, GitLab CI), Jest, Git
+- Backend Frameworks: Node.js, NestJS, Express, REST APIs, WebSockets
+- Databases & Queues: PostgreSQL, pgvector, ClickHouse, Redis, Kafka, BullMQ
+- AI & Agentic Workflows: AI Agents, Multimodal AI (VLM), Claude, Antigravity IDE, Custom Skills, Cursor
+- DevOps & Testing: AWS (RDS, SQS, ECS, Lambda), Cloudflare, Docker, CI/CD (GitHub Actions, GitLab CI), Jest, Git
 
 ## Work Experience
 
@@ -39,3 +39,23 @@
 ## Education
 - Engineer (Information Technologies & Systems in Logistics), BSUIR IIT, Minsk (2008 — 2013)
 - Rolling Scopes School (2019 — 2020)
+
+## Featured Projects
+
+### Stsezhka — Outdoor Route-Planning Workspace
+- Role: Creator & Core Architect
+- Status: Active Project
+- Tech: TypeScript, Node.js, Turborepo, Mapbox / OpenStreetMap, Geospatial / GPX, REST API
+- Description: Full-scale outdoor routing and mapping platform designed for cycling, running, and hiking. Features custom multi-modal route planning, elevation/gradient profiling, surface analysis, automated cue sheet / roadbook generation, GPX import/export pipelines, and responsive web & mobile clients.
+
+### SplitBot (SplitBill) — Shared Expense Splitting ([botsplit.com](https://botsplit.com))
+- Role: Creator & Full-Stack Engineer
+- Status: Production / Live
+- Tech: TypeScript, Next.js, PostgreSQL, Redis, WebSockets, Multimodal AI (VLM), Cloudflare, Telegram Mini App
+- Description: Production-grade Telegram Mini App and bot for collaborative group expense splitting with zero-onboarding (HMAC initData). Features Multimodal Vision AI OCR receipt extraction and multi-language dish translation in a single inference pass, real-time WebSocket item claiming, multi-currency conversions, and an optimal greedy debt simplification algorithm reducing settlements to at most N−1 transactions. Fully localized in 21 languages.
+
+### NeyroNews — Autonomous AI News Pipeline ([neyronews.com](https://neyronews.com))
+- Role: Creator & System Architect
+- Status: Production / Live
+- Tech: System Architecture, PostgreSQL (pgvector), LLM Pipelines, Telegram Bot API, Docker
+- Description: Autonomous multi-agent news curation and broadcasting pipeline delivering technical AI news. Features continuous RSS/web scraping, semantic deduplication via vector embeddings (pgvector cosine similarity) and SHA-256 hashing, a two-stage LLM evaluation funnel (cheap triage scoring + flagship post synthesis), Human-in-the-Loop (HITL) moderation via Telegram inline buttons, and a scheduled publishing grid with PostgreSQL row-level concurrency control (`FOR UPDATE SKIP LOCKED`).
