@@ -37,7 +37,7 @@
 - Infrastructure Management: Maintained live video streaming infrastructure and network pipelines.
 
 ## Education
-- Engineer (Information Technologies & Systems in Logistics), BSUIR IIT, Minsk (2008 — 2013)
+- Engineer (Information Technologies & Systems in Logistics), BSUIR IIT, Minsk (2013 — 2018)
 - Rolling Scopes School (2019 — 2020)
 
 ## Featured Projects

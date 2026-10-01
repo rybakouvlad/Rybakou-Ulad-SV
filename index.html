@@ -39,7 +39,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    <link rel="stylesheet" href="style.css?v=2">
+    <link rel="stylesheet" href="style.css?v=3">
 
     <!-- JSON-LD Structured Data (Schema.org/Person) -->
     <script type="application/ld+json">
@@ -50,7 +50,7 @@
       "jobTitle": "Backend / Full Stack Engineer",
       "email": "mailto:rybakou.uladzislau@gmail.com",
       "url": "https://rybakou.com/",
-      "image": "https://rybakou.com/favicon.svg",
+      "image": "https://rybakou.com/photo.jpg",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Tbilisi",
@@ -103,13 +103,12 @@
     <div class="container">
         <header class="reveal">
             <div class="header-content">
-                <!-- Photo placeholder hidden until a suitable photo is ready.
-                     To re-enable: uncomment this block and replace the icon
-                     with <img src="photo.jpg" alt="Uladzislau Rybakou">
-                <div class="photo-placeholder" title="Your photo will be here">
-                    <i class="ph ph-user"></i>
+                <div class="photo-placeholder">
+                    <picture>
+                        <source srcset="photo.webp" type="image/webp">
+                        <img src="photo.jpg" alt="Uladzislau Rybakou" width="120" height="120" fetchpriority="high">
+                    </picture>
                 </div>
-                -->
                 <div class="header-text">
                     <h1>Uladzislau Rybakou</h1>
                     <div class="subtitle">Backend / Full Stack Engineer</div>
@@ -247,7 +246,7 @@
                 <h2><i class="ph ph-graduation-cap"></i> Education</h2>
                 <div class="education-item">
                     <div class="edu-title">Engineer, Institute of Information Technologies BSUIR, Minsk</div>
-                    <div class="edu-date">2008 — 2013</div>
+                    <div class="edu-date">2013 — 2018</div>
                 </div>
                 <p class="edu-desc">Information Technologies and Systems in Logistics</p>
                 
