@@ -42,7 +42,7 @@
 
 ## Featured Projects
 
-### Stsezhka — Outdoor Route-Planning Workspace ([stsezhka.com](https://stsezhka.com))
+### Ściežka — Outdoor Route-Planning Workspace ([scezka.com](https://scezka.com))
 - Role: Creator & Core Architect
 - Status: Active Project
 - Tech: TypeScript, Node.js, Turborepo, Mapbox / OpenStreetMap, Geospatial / GPX, REST API
