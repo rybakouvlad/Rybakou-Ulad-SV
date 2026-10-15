@@ -6,8 +6,8 @@
     <title>Uladzislau Rybakou - Backend / Full Stack Engineer</title>
     
     <!-- Primary Meta Tags -->
-    <meta name="description" content="Portfolio & Resume of Uladzislau Rybakou, a Backend-focused Software Engineer with 5+ years of experience in Node.js, TypeScript, NestJS, PostgreSQL, Kafka, and AI Agentic Workflows.">
-    <meta name="keywords" content="Uladzislau Rybakou, Backend Engineer, Full Stack Engineer, Node.js, TypeScript, NestJS, PostgreSQL, Kafka, Redis, AI Agents, Developer, Resume, Portfolio">
+    <meta name="description" content="Portfolio & resume of Uladzislau Rybakou, Senior Backend / Full Stack Engineer (5+ yrs) specializing in TypeScript, Node.js, NestJS, Hono, PostgreSQL, Kafka, React, and production AI pipelines.">
+    <meta name="keywords" content="Uladzislau Rybakou, Vladislav Rybakou, Backend Engineer, Full Stack Engineer, TypeScript, Node.js, NestJS, Hono, React, PostgreSQL, pgvector, PostGIS, Kafka, BullMQ, Redis, AI Pipelines, Resume, Portfolio">
     <meta name="author" content="Uladzislau Rybakou">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#0f172a">
@@ -20,73 +20,126 @@
     <meta property="og:url" content="https://rybakou.com/">
     <meta property="og:site_name" content="Uladzislau Rybakou Portfolio">
     <meta property="og:title" content="Uladzislau Rybakou - Backend / Full Stack Engineer">
-    <meta property="og:description" content="Backend-focused Software Engineer (5+ yrs) specializing in Node.js, NestJS, TypeScript, PostgreSQL, Kafka, and AI-driven agentic workflows.">
+    <meta property="og:description" content="Backend & Full Stack Engineer (5+ yrs) specializing in TypeScript, Node.js (NestJS, Hono), PostgreSQL, Kafka, React, and production AI systems.">
     <meta property="og:image" content="https://rybakou.com/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Uladzislau Rybakou — Backend / Full Stack Engineer">
+    <meta property="og:image:alt" content="Uladzislau Rybakou - Backend / Full Stack Engineer">
     <meta property="og:locale" content="en_US">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://rybakou.com/">
     <meta name="twitter:title" content="Uladzislau Rybakou - Backend / Full Stack Engineer">
-    <meta name="twitter:description" content="Backend-focused Software Engineer (5+ yrs) specializing in Node.js, NestJS, TypeScript, PostgreSQL, Kafka, and AI-driven agentic workflows.">
+    <meta name="twitter:description" content="Backend & Full Stack Engineer (5+ yrs) specializing in TypeScript, Node.js (NestJS, Hono), PostgreSQL, Kafka, React, and production AI systems.">
     <meta name="twitter:image" content="https://rybakou.com/og-image.png">
 
     <!-- Fonts & Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    <link rel="stylesheet" href="style.css?v=3">
+    <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
+    <link rel="stylesheet" href="style.css?v=4">
+    <noscript>
+        <style>
+            .reveal { opacity: 1 !important; transform: none !important; }
+        </style>
+    </noscript>
 
-    <!-- JSON-LD Structured Data (Schema.org/Person) -->
+    <!-- JSON-LD Structured Data (Schema.org Graph: ProfilePage + Person + Projects) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Uladzislau Rybakou",
-      "jobTitle": "Backend / Full Stack Engineer",
-      "email": "mailto:rybakou.uladzislau@gmail.com",
-      "url": "https://rybakou.com/",
-      "image": "https://rybakou.com/photo.jpg",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Tbilisi",
-        "addressCountry": "Georgia"
-      },
-      "sameAs": [
-        "https://github.com/rybakouvlad",
-        "https://www.linkedin.com/in/rybakou",
-        "https://t.me/UladzislauR"
-      ],
-      "knowsAbout": [
-        "TypeScript",
-        "JavaScript",
-        "Node.js",
-        "NestJS",
-        "PostgreSQL",
-        "pgvector",
-        "Kafka",
-        "BullMQ",
-        "Redis",
-        "ClickHouse",
-        "WebSockets",
-        "AWS",
-        "Docker",
-        "AI Agents",
-        "Multimodal AI",
-        "REST APIs"
-      ],
-      "alumniOf": [
+      "@graph": [
         {
-          "@type": "EducationalOrganization",
-          "name": "Institute of Information Technologies BSUIR"
+          "@type": "ProfilePage",
+          "@id": "https://rybakou.com/#profilepage",
+          "url": "https://rybakou.com/",
+          "name": "Uladzislau Rybakou - Backend / Full Stack Engineer",
+          "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://rybakou.com/#website",
+            "url": "https://rybakou.com/",
+            "name": "Uladzislau Rybakou Portfolio"
+          },
+          "about": {
+            "@id": "https://rybakou.com/#person"
+          },
+          "mainEntity": {
+            "@id": "https://rybakou.com/#person"
+          }
         },
         {
-          "@type": "EducationalOrganization",
-          "name": "Rolling Scopes School"
+          "@type": "Person",
+          "@id": "https://rybakou.com/#person",
+          "name": "Uladzislau Rybakou",
+          "alternateName": "Vladislav Rybakou",
+          "jobTitle": "Backend / Full Stack Engineer",
+          "email": "mailto:rybakou.uladzislau@gmail.com",
+          "url": "https://rybakou.com/",
+          "image": "https://rybakou.com/photo.jpg",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Tbilisi",
+            "addressCountry": "Georgia"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/in/rybakou"
+          ],
+          "knowsAbout": [
+            "TypeScript",
+            "JavaScript",
+            "Node.js",
+            "NestJS",
+            "Hono",
+            "Express",
+            "React",
+            "PostgreSQL",
+            "pgvector",
+            "PostGIS",
+            "ClickHouse",
+            "Kafka",
+            "BullMQ",
+            "Redis",
+            "WebSockets",
+            "AWS",
+            "GCP",
+            "Docker",
+            "Terraform",
+            "LLM Orchestration",
+            "Multimodal AI",
+            "REST APIs"
+          ],
+          "creator": [
+            {
+              "@type": "SoftwareApplication",
+              "name": "SplitBot",
+              "url": "https://botsplit.com",
+              "applicationCategory": "Financial Expense Splitting Telegram Mini App"
+            },
+            {
+              "@type": "SoftwareApplication",
+              "name": "NeyroNews",
+              "url": "https://neyronews.com",
+              "applicationCategory": "Autonomous AI News Pipeline"
+            },
+            {
+              "@type": "SoftwareApplication",
+              "name": "Ściežka",
+              "url": "https://scezka.com",
+              "applicationCategory": "Geospatial Route Planning Platform"
+            }
+          ],
+          "alumniOf": [
+            {
+              "@type": "EducationalOrganization",
+              "name": "Institute of Information Technologies BSUIR"
+            },
+            {
+              "@type": "EducationalOrganization",
+              "name": "Rolling Scopes School"
+            }
+          ]
         }
       ]
     }
@@ -94,10 +147,10 @@
 </head>
 <body>
     <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
-        <i class="ph ph-moon"></i>
+        <i class="ph ph-moon" aria-hidden="true"></i>
     </button>
     <a id="print-btn" class="print-btn" href="resume.pdf" download="Uladzislau-Rybakou-Resume.pdf" aria-label="Download PDF" title="Download PDF">
-        <i class="ph ph-download-simple"></i>
+        <i class="ph ph-download-simple" aria-hidden="true"></i>
     </a>
 
     <div class="container">
@@ -113,15 +166,13 @@
                     <h1>Uladzislau Rybakou</h1>
                     <div class="subtitle">Backend / Full Stack Engineer</div>
                     <div class="contacts">
-                        <span><i class="ph ph-map-pin"></i> Tbilisi, Georgia</span>
-                        <span><i class="ph ph-envelope-simple"></i> <a href="mailto:rybakou.uladzislau@gmail.com">rybakou.uladzislau@gmail.com</a></span>
+                        <span><i class="ph ph-map-pin" aria-hidden="true"></i> Tbilisi, Georgia (UTC+4)</span>
+                        <span><i class="ph ph-envelope-simple" aria-hidden="true"></i> <!--email_off--><a href="mailto:rybakou.uladzislau@gmail.com">rybakou.uladzislau@gmail.com</a><!--/email_off--></span>
+                        <span><i class="ph ph-globe" aria-hidden="true"></i> <a href="https://rybakou.com" target="_blank" rel="noopener">rybakou.com</a></span>
+                        <span><i class="ph ph-linkedin-logo" aria-hidden="true"></i> <a href="https://www.linkedin.com/in/rybakou" target="_blank" rel="noopener">linkedin.com/in/rybakou</a></span>
                     </div>
                     <div class="social-links">
-                        <a href="https://github.com/rybakouvlad" target="_blank" class="social-link" title="GitHub"><i class="ph ph-github-logo"></i></a>
-                        <a href="https://www.linkedin.com/in/rybakou" target="_blank" class="social-link" title="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
-                        <a href="https://t.me/UladzislauR" target="_blank" class="social-link" title="Telegram"><i class="ph ph-telegram-logo"></i></a>
-                        <span class="social-divider" aria-hidden="true"></span>
-                        <a href="#projects" class="projects-quick-link" title="Jump to Featured Projects"><i class="ph ph-rocket-launch"></i> Projects <i class="ph ph-arrow-down"></i></a>
+                        <a href="#projects" class="projects-quick-link" title="Jump to Featured Projects"><i class="ph ph-rocket-launch" aria-hidden="true"></i> Featured Projects <i class="ph ph-arrow-down" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
@@ -129,186 +180,156 @@
 
         <main>
             <section class="reveal">
-                <h2><i class="ph ph-user-circle"></i> Profile</h2>
+                <h2><i class="ph ph-user-circle" aria-hidden="true"></i> Profile</h2>
                 <p>
-                    Backend-focused Software Engineer with 5+ years of experience specializing in Node.js (TypeScript, NestJS). Strong track record of designing scalable APIs, handling complex database architectures (PostgreSQL), and building robust cross-system integrations. Experienced in safely managing data migrations, modernizing legacy codebases, and leveraging advanced AI-driven development workflows (Claude, Antigravity, Cursor) to drastically accelerate time-to-delivery. Alongside commercial engineering, creator of several independent products — <a href="#projects" class="inline-anchor">see Featured Projects below ↓</a>. Available for a full-time commitment.
+                    Backend and Full Stack Engineer with 5+ years of commercial experience specializing in TypeScript and Node.js (NestJS, Hono, Express). Track record of designing high-throughput REST and WebSocket APIs, tuning PostgreSQL and ClickHouse workloads, and operating fault-tolerant event pipelines with Kafka, BullMQ, and Redis. Experienced in zero-downtime schema migrations, legacy monolith decomposition, React web applications, and production AI pipelines (multimodal OCR, semantic vector search with <code>pgvector</code>, and multi-stage LLM orchestration). Creator of three live production systems: <a href="https://botsplit.com" target="_blank" rel="noopener">botsplit.com</a>, <a href="https://neyronews.com" target="_blank" rel="noopener">neyronews.com</a>, and <a href="https://scezka.com" target="_blank" rel="noopener">scezka.com</a>.
                 </p>
             </section>
 
             <section class="reveal">
-                <h2><i class="ph ph-code"></i> Technical Skills</h2>
+                <h2><i class="ph ph-code" aria-hidden="true"></i> Technical Skills</h2>
                 <div class="skills-container">
                     <div class="skill-category">
-                        <strong>Languages:</strong>
+                        <strong>Backend & APIs:</strong>
                         <div class="skill-tags">
                             <span class="tag">TypeScript</span>
-                            <span class="tag">JavaScript</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">NestJS</span>
+                            <span class="tag">Hono</span>
+                            <span class="tag">Express</span>
+                            <span class="tag">REST APIs</span>
+                            <span class="tag">WebSockets</span>
+                            <span class="tag">Microservices</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <strong>Data & Messaging:</strong>
+                        <div class="skill-tags">
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">pgvector</span>
+                            <span class="tag">PostGIS</span>
+                            <span class="tag">ClickHouse</span>
+                            <span class="tag">Redis</span>
+                            <span class="tag">Kafka</span>
+                            <span class="tag">BullMQ</span>
+                            <span class="tag">Drizzle ORM</span>
                             <span class="tag">SQL</span>
                         </div>
                     </div>
                     <div class="skill-category">
-                        <strong>Backend Core:</strong>
+                        <strong>Frontend & Web:</strong>
                         <div class="skill-tags">
-                            <span class="tag">Node.js</span>
-                            <span class="tag">NestJS</span>
-                            <span class="tag">Express</span>
-                            <span class="tag">REST APIs</span>
-                            <span class="tag">WebSockets</span>
+                            <span class="tag">React 19</span>
+                            <span class="tag">Vite</span>
+                            <span class="tag">TanStack Query</span>
+                            <span class="tag">Zustand</span>
+                            <span class="tag">Tailwind CSS</span>
+                            <span class="tag">Telegram Mini Apps</span>
+                            <span class="tag">MapLibre GL</span>
                         </div>
                     </div>
                     <div class="skill-category">
-                        <strong>Data & Queues:</strong>
+                        <strong>AI Engineering:</strong>
                         <div class="skill-tags">
-                            <span class="tag">PostgreSQL</span>
-                            <span class="tag">pgvector</span>
-                            <span class="tag">ClickHouse</span>
-                            <span class="tag">Kafka</span>
-                            <span class="tag">BullMQ</span>
-                            <span class="tag">Redis</span>
-                        </div>
-                    </div>
-                    <div class="skill-category">
-                        <strong>AI & Workflow:</strong>
-                        <div class="skill-tags">
-                            <span class="tag">AI Agents</span>
+                            <span class="tag">LLM Orchestration</span>
                             <span class="tag">Multimodal AI (VLM)</span>
-                            <span class="tag">Claude</span>
-                            <span class="tag">Antigravity</span>
-                            <span class="tag">Custom Skills & Hooks</span>
-                            <span class="tag">Cursor</span>
+                            <span class="tag">RAG / pgvector</span>
+                            <span class="tag">Structured Outputs</span>
+                            <span class="tag">Claude Code &amp; MCP</span>
                         </div>
                     </div>
                     <div class="skill-category">
-                        <strong>DevOps & Testing:</strong>
+                        <strong>Cloud & DevOps:</strong>
                         <div class="skill-tags">
-                            <span class="tag">AWS (RDS, SQS, ECS, Lambda)</span>
+                            <span class="tag">AWS (ECS, Lambda, RDS, SQS)</span>
+                            <span class="tag">GCP (Cloud Run, Cloud SQL)</span>
                             <span class="tag">Cloudflare</span>
                             <span class="tag">Docker</span>
+                            <span class="tag">Terraform</span>
                             <span class="tag">CI/CD (GitHub Actions, GitLab CI)</span>
-                            <span class="tag">Jest</span>
-                            <span class="tag">Git</span>
+                            <span class="tag">Jest / Vitest</span>
                         </div>
                     </div>
                 </div>
             </section>
 
             <section class="reveal">
-                <h2><i class="ph ph-briefcase"></i> Employment History</h2>
+                <h2><i class="ph ph-briefcase" aria-hidden="true"></i> Employment History</h2>
 
                 <div class="job">
                     <div class="job-header">
                         <div><span class="job-title">Backend Developer</span> | <span class="job-company">Blask, Tbilisi</span></div>
-                        <div class="job-date"><i class="ph ph-calendar-blank"></i> Jul 2024 — Jun 2026</div>
+                        <div class="job-date"><i class="ph ph-calendar-blank" aria-hidden="true"></i> Jul 2024 - Present</div>
                     </div>
                     <ul>
-                        <li><strong>Database Engineering & Migrations:</strong> Managed complex PostgreSQL schemas, optimized analytical queries, and executed secure database updates to maintain high data consistency across microservices.</li>
-                        <li><strong>System Integrations:</strong> Engineered resilient cross-system integration pipelines using Kafka, BullMQ, and Redis, preventing data loss through Dead Letter Queues (DLQ) and retry mechanisms.</li>
-                        <li><strong>Architecture & Testing:</strong> Developed scalable REST APIs with NestJS and TypeScript. Maintained high system reliability by covering critical integration points and business logic with comprehensive unit and E2E tests (Jest).</li>
-                        <li><strong>AI-Driven Development:</strong> Utilized advanced AI orchestration tools and agentic workflows (Antigravity IDE, Claude) to rapidly analyze infrastructure, fast-track legacy refactoring, and automate boilerplate code extraction.</li>
+                        <li><strong>High-Load Data & Query Tuning:</strong> Designed and optimized PostgreSQL schemas and analytical queries for a B2B iGaming market analytics platform, resolving lock contention, tuning composite and partial indexes, and executing zero-downtime data migrations across microservices.</li>
+                        <li><strong>Event-Driven Pipelines & Resiliency:</strong> Engineered asynchronous ingestion and cross-service synchronization pipelines using Kafka, BullMQ, and Redis with idempotent consumers, exponential backoff retries, and Dead Letter Queues (DLQ) to prevent event loss under load spikes.</li>
+                        <li><strong>API Architecture & Contract Testing:</strong> Built high-throughput NestJS (TypeScript) REST services with strict DTO validation and rate limiting, maintaining system reliability through automated unit and E2E test suites in Jest.</li>
+                        <li><strong>Legacy Decomposition & Tooling:</strong> Extracted tightly coupled domain modules into isolated services and automated schema validation, test generation, and cross-service refactoring using agentic AI workflows (Claude Code, MCP).</li>
                     </ul>
                 </div>
 
                 <div class="job reveal">
                     <div class="job-header">
                         <div><span class="job-title">Full Stack Developer</span> | <span class="job-company">DIBSCapital, Tel Aviv</span></div>
-                        <div class="job-date"><i class="ph ph-calendar-blank"></i> Jun 2022 — Jun 2024</div>
+                        <div class="job-date"><i class="ph ph-calendar-blank" aria-hidden="true"></i> Jun 2022 - Jun 2024</div>
                     </div>
                     <ul>
-                        <li><strong>Third-Party Integrations:</strong> Connected internal core systems with external partner applications (North Capital KYC, InvestReady, Stripe), facilitating secure user data flow and synchronization.</li>
-                        <li><strong>Cloud Infrastructure:</strong> Deployed and managed backend services within AWS environments (ECS, Lambda, RDS), scaling infrastructure to support sensitive transactions reliably.</li>
-                        <li><strong>Feature Delivery:</strong> Developed and optimized robust full-stack solutions, ensuring seamless integration between Node.js backend services and React frontend interfaces.</li>
+                        <li><strong>Fintech & KYC Integrations:</strong> Integrated core real-estate investment workflows with regulated financial providers (North Capital escrow/KYC, InvestReady accreditation, and Stripe payments), implementing webhook signature verification, idempotency keys, and compliance audit trails.</li>
+                        <li><strong>AWS Cloud Infrastructure:</strong> Deployed and operated containerized Node.js backend workloads across AWS (ECS, Lambda, RDS, SQS), configuring queue-backed transaction processing and automated failure alerting.</li>
+                        <li><strong>Full-Stack Product Delivery:</strong> Built investor onboarding flows, portfolio dashboards, and document signing interfaces in React backed by typed Node.js and PostgreSQL REST APIs.</li>
                     </ul>
                 </div>
 
                 <div class="job reveal">
                     <div class="job-header">
                         <div><span class="job-title">Backend Developer</span> | <span class="job-company">Nublecraft</span></div>
-                        <div class="job-date"><i class="ph ph-calendar-blank"></i> Apr 2021 — Jun 2022</div>
+                        <div class="job-date"><i class="ph ph-calendar-blank" aria-hidden="true"></i> Apr 2021 - Jun 2022</div>
                     </div>
                     <ul>
-                        <li><strong>System Modernization:</strong> Audited and iteratively refactored legacy codebases to modernize APIs and improve overall system performance without disrupting active business operations.</li>
-                        <li><strong>API Development:</strong> Built, optimized, and documented reliable server-side REST APIs using Node.js for seamless integration by internal and external clients.</li>
+                        <li><strong>Monolith Refactoring:</strong> Decomposed legacy Node.js monolithic modules into modular, testable service layers with structured error handling and request validation while keeping production traffic uninterrupted.</li>
+                        <li><strong>REST API & Database Optimization:</strong> Built and documented Node.js REST endpoints for internal and third-party consumers, optimizing slow SQL queries and database connection pooling.</li>
                     </ul>
                 </div>
 
                 <div class="job reveal">
                     <div class="job-header">
                         <div><span class="job-title">Live Video Streaming Engineer</span> | <span class="job-company">Specmedia, Minsk</span></div>
-                        <div class="job-date"><i class="ph ph-calendar-blank"></i> Mar 2017 — Jun 2020</div>
+                        <div class="job-date"><i class="ph ph-calendar-blank" aria-hidden="true"></i> Mar 2017 - Jun 2020</div>
                     </div>
                     <ul>
-                        <li><strong>Infrastructure Management:</strong> Maintained live streaming infrastructure, ensuring continuous uptime, network optimization, and stable video delivery pipelines.</li>
+                        <li><strong>Streaming Infrastructure:</strong> Operated low-latency live video streaming pipelines (RTMP, HLS), media transcoders, and network relays for high-concurrency broadcast events.</li>
                     </ul>
-                </div>
-            </section>
-
-            <section id="education" class="reveal">
-                <h2><i class="ph ph-graduation-cap"></i> Education</h2>
-                <div class="education-item">
-                    <div class="edu-title">Engineer, Institute of Information Technologies BSUIR, Minsk</div>
-                    <div class="edu-date">2013 — 2018</div>
-                </div>
-                <p class="edu-desc">Information Technologies and Systems in Logistics</p>
-                
-                <div class="education-item mt-15">
-                    <div class="edu-title">Rolling Scopes School</div>
-                    <div class="edu-date">Jun 2019 — 2020</div>
                 </div>
             </section>
 
             <section id="projects" class="reveal">
-                <h2><i class="ph ph-rocket-launch"></i> Featured Projects</h2>
-
-                <div class="job reveal">
-                    <div class="job-header">
-                        <div>
-                            <span class="job-title">Ściežka</span> | 
-                            <span class="job-company"><a href="https://scezka.com" target="_blank" rel="noopener">scezka.com <i class="ph ph-arrow-square-out"></i></a></span>
-                        </div>
-                        <div class="job-date"><i class="ph ph-tag"></i> Active Project</div>
-                    </div>
-                    <p class="project-desc">Full-scale outdoor routing and mapping platform designed for cycling, running, and hiking adventures, featuring an interactive mapping environment and custom-built routing services.</p>
-                    <ul>
-                        <li><strong>Custom Routing & Geospatial Engine:</strong> Engineered multi-modal route planning with elevation profiling, gradient analysis, surface classification, and automated cue sheet / roadbook generation.</li>
-                        <li><strong>High-Performance Architecture:</strong> Built within a TypeScript monorepo (Turborepo/pnpm), processing complex GPX datasets, waypoint sequencing, and smooth map interactions (Mapbox / OSM).</li>
-                        <li><strong>Scalable Ecosystem:</strong> Designed a resilient backend API alongside an offline-first web application and cross-platform mobile client.</li>
-                    </ul>
-                    <div class="skill-tags mt-10">
-                        <span class="tag">TypeScript</span>
-                        <span class="tag">Node.js</span>
-                        <span class="tag">Turborepo</span>
-                        <span class="tag">Mapbox / OSM</span>
-                        <span class="tag">Geospatial / GPX</span>
-                        <span class="tag">REST API</span>
-                    </div>
-                </div>
+                <h2><i class="ph ph-rocket-launch" aria-hidden="true"></i> Featured Projects</h2>
 
                 <div class="job reveal">
                     <div class="job-header">
                         <div>
                             <span class="job-title">SplitBot</span> | 
-                            <span class="job-company"><a href="https://botsplit.com" target="_blank" rel="noopener">botsplit.com <i class="ph ph-arrow-square-out"></i></a></span>
+                            <span class="job-company"><a href="https://botsplit.com" target="_blank" rel="noopener">botsplit.com <i class="ph ph-arrow-square-out" aria-hidden="true"></i></a></span>
                         </div>
-                        <div class="job-date"><i class="ph ph-tag"></i> Production / Live</div>
+                        <div class="job-date"><i class="ph ph-tag" aria-hidden="true"></i> Production / Live</div>
                     </div>
-                    <p class="project-desc">Production-grade Telegram Mini App and bot for collaborative group expense splitting with zero-friction onboarding and multimodal receipt processing.</p>
+                    <p class="project-desc">Production Telegram Mini App and bot for collaborative group expense splitting with zero-onboarding authentication and multimodal receipt recognition.</p>
                     <ul>
-                        <li><strong>Multimodal AI Receipt OCR:</strong> Built an automated recognition pipeline using Vision-Language Models (VLM) that extracts line items from receipt photos and translates international dish names in a single inference pass.</li>
-                        <li><strong>Real-Time Synchronization:</strong> Implemented collaborative item claiming via WebSockets and Telegram HMAC authentication, enabling group members to split bills simultaneously with instant state sync.</li>
-                        <li><strong>Financial Integrity & Algorithms:</strong> Implemented an automated debt-simplification algorithm that minimizes the number of settlement transfers between participants; multi-currency conversions and proportional tax/tip allocations.</li>
-                        <li><strong>Global Localization:</strong> Localized across 21 languages, deployed on Cloudflare Pages with Dockerized backend infrastructure.</li>
+                        <li><strong>Multimodal AI Receipt OCR:</strong> Built a Vision-Language Model (VLM) pipeline with strict JSON schema validation and arithmetic reconciliation that extracts receipt line items, taxes, and tips and translates dish names across 21 languages in a single inference pass.</li>
+                        <li><strong>Real-Time Collaborative Sync:</strong> Engineered live multi-user item claiming over WebSockets with Redis Pub/Sub fanout, commutative state updates, and zero-onboarding Telegram WebApp <code>HMAC-SHA256</code> (<code>initData</code>) authentication.</li>
+                        <li><strong>Financial Ledger & Settlement:</strong> Designed a multi-currency ledger using exact <code>NUMERIC</code> arithmetic, proportional tax/tip distribution, FX rate caching, and automated peer-to-peer settlement calculation, deployed on GCP Cloud Run and Cloudflare via Terraform.</li>
                     </ul>
                     <div class="skill-tags mt-10">
                         <span class="tag">TypeScript</span>
-                        <span class="tag">Next.js</span>
-                        <span class="tag">Python</span>
-                        <span class="tag">FastAPI</span>
+                        <span class="tag">React 19</span>
+                        <span class="tag">Vite</span>
+                        <span class="tag">WebSockets</span>
                         <span class="tag">PostgreSQL</span>
                         <span class="tag">Redis</span>
-                        <span class="tag">WebSockets</span>
                         <span class="tag">Multimodal AI (VLM)</span>
                         <span class="tag">Telegram Mini App</span>
-                        <span class="tag">Cloudflare</span>
+                        <span class="tag">Terraform</span>
                     </div>
                 </div>
 
@@ -316,26 +337,69 @@
                     <div class="job-header">
                         <div>
                             <span class="job-title">NeyroNews</span> | 
-                            <span class="job-company"><a href="https://neyronews.com" target="_blank" rel="noopener">neyronews.com <i class="ph ph-arrow-square-out"></i></a></span>
+                            <span class="job-company"><a href="https://neyronews.com" target="_blank" rel="noopener">neyronews.com <i class="ph ph-arrow-square-out" aria-hidden="true"></i></a></span>
                         </div>
-                        <div class="job-date"><i class="ph ph-tag"></i> Production / Live</div>
+                        <div class="job-date"><i class="ph ph-tag" aria-hidden="true"></i> Production / Live</div>
                     </div>
-                    <p class="project-desc">Autonomous multi-agent news curation and broadcasting pipeline delivering technical AI & developer news with Human-in-the-Loop moderation.</p>
+                    <p class="project-desc">Autonomous AI news curation and broadcasting pipeline delivering filtered technical digests with Human-in-the-Loop editorial moderation.</p>
                     <ul>
-                        <li><strong>Semantic Deduplication & Crawling:</strong> Continuously monitors multi-channel web & RSS sources; eliminates duplicates using exact SHA-256 hashing and semantic cosine similarity with PostgreSQL <code>pgvector</code>.</li>
-                        <li><strong>Two-Stage LLM Evaluation Funnel:</strong> Implemented a tiered scoring architecture — high-throughput lightweight LLM for initial triage, followed by advanced LLM synthesis to draft publication-ready technical posts.</li>
-                        <li><strong>HITL Moderation & Concurrency:</strong> Telegram inline callback buttons for editor consensus review and a scheduled publication engine using PostgreSQL <code>SELECT ... FOR UPDATE SKIP LOCKED</code> to prevent race conditions.</li>
+                        <li><strong>Semantic Deduplication Pipeline:</strong> Continuously polls 10+ technical AI sources and eliminates cross-source duplicates in two stages: canonical URL <code>SHA-256</code> hashing followed by PostgreSQL <code>pgvector</code> cosine distance checks (<code>&lt; 0.08</code> threshold across a 72h rolling window) using local <code>bge-m3</code> embeddings.</li>
+                        <li><strong>Two-Stage LLM Evaluation Funnel:</strong> Combines a lightweight triage scorer (grading technical substance 1-10 to reject marketing fluff) with full-text extraction and structured LLM synthesis into publication-ready digests.</li>
+                        <li><strong>HITL Moderation & Concurrency:</strong> Dispatches drafts to editors via Telegram inline callbacks with atomic state transitions, quorum rules, and a scheduled broadcast engine using PostgreSQL <code>SELECT ... FOR UPDATE SKIP LOCKED</code> to prevent race conditions.</li>
                     </ul>
                     <div class="skill-tags mt-10">
-                        <span class="tag">Python</span>
                         <span class="tag">PostgreSQL</span>
                         <span class="tag">pgvector</span>
-                        <span class="tag">LiteLLM</span>
-                        <span class="tag">LLM Pipelines</span>
+                        <span class="tag">LLM Orchestration</span>
+                        <span class="tag">bge-m3 Embeddings</span>
                         <span class="tag">Telegram Bot API</span>
+                        <span class="tag">Cloudflare Pages</span>
                         <span class="tag">Docker</span>
                     </div>
                 </div>
+
+                <div class="job reveal">
+                    <div class="job-header">
+                        <div>
+                            <span class="job-title">Ściežka</span> | 
+                            <span class="job-company"><a href="https://scezka.com" target="_blank" rel="noopener">scezka.com <i class="ph ph-arrow-square-out" aria-hidden="true"></i></a></span>
+                        </div>
+                        <div class="job-date"><i class="ph ph-tag" aria-hidden="true"></i> Production / Live</div>
+                    </div>
+                    <p class="project-desc">Outdoor route-planning workspace for cycling, running, and hiking with an interactive GIS map studio and a custom-built routing engine.</p>
+                    <ul>
+                        <li><strong>Monorepo & Spatial Backend:</strong> Architected a TypeScript Turborepo workspace (<code>Node.js 24</code>, <code>Hono</code>, <code>Drizzle ORM</code>, <code>React 19</code>) backed by PostgreSQL with <code>PostGIS</code> spatial indexing, Redis caching, and Strava OAuth2 webhook synchronization on GCP Cloud Run.</li>
+                        <li><strong>Custom Rust Routing Engine:</strong> Built a high-performance routing service in Rust (<code>Axum</code>, <code>Tokio</code>, memory-mapped OpenStreetMap PBF graphs, and DEM elevation tiles) for low-latency multi-modal pathfinding and surface analysis.</li>
+                        <li><strong>Interactive GIS Workspace:</strong> Engineered a browser mapping studio using <code>MapLibre GL</code>, <code>Zustand</code> + <code>Zundo</code> temporal undo/redo state, client-side geometry processing, GPX pipelines, and interactive elevation and gradient profiling.</li>
+                    </ul>
+                    <div class="skill-tags mt-10">
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Hono</span>
+                        <span class="tag">React 19</span>
+                        <span class="tag">PostgreSQL / PostGIS</span>
+                        <span class="tag">Drizzle ORM</span>
+                        <span class="tag">Rust</span>
+                        <span class="tag">MapLibre GL</span>
+                        <span class="tag">Turborepo</span>
+                        <span class="tag">GCP</span>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education" class="reveal">
+                <h2><i class="ph ph-graduation-cap" aria-hidden="true"></i> Education</h2>
+                <div class="education-item">
+                    <div class="edu-title">Engineer, Institute of Information Technologies BSUIR, Minsk</div>
+                    <div class="edu-date">2013 - 2018</div>
+                </div>
+                <p class="edu-desc">Information Technologies and Systems in Logistics</p>
+                
+                <div class="education-item mt-15">
+                    <div class="edu-title">Rolling Scopes School</div>
+                    <div class="edu-date">Jun 2019 - 2020</div>
+                </div>
+                <p class="edu-desc">JavaScript / TypeScript / Node.js Specialization</p>
             </section>
         </main>
     </div>

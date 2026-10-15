@@ -1,61 +1,60 @@
 # Uladzislau Rybakou - Backend / Full Stack Engineer
 
-> Backend-focused Software Engineer with 5+ years of experience specializing in Node.js (TypeScript, NestJS), PostgreSQL, high-performance distributed systems, and AI-driven development workflows. Available for full-time roles.
+> Backend and Full Stack Engineer with 5+ years of commercial experience specializing in TypeScript and Node.js (NestJS, Hono, Express), PostgreSQL, event-driven distributed systems (Kafka, BullMQ, Redis), React web applications, and production AI pipelines. Creator of botsplit.com, neyronews.com, and scezka.com.
 
 ## Contact Information
 - Website: https://rybakou.com/
 - Email: rybakou.uladzislau@gmail.com
-- Location: Tbilisi, Georgia
-- GitHub: https://github.com/rybakouvlad
+- Location: Tbilisi, Georgia (UTC+4)
 - LinkedIn: https://www.linkedin.com/in/rybakou
-- Telegram: https://t.me/UladzislauR
 
 ## Core Technical Skills
-- Languages: TypeScript, JavaScript, SQL
-- Backend Frameworks: Node.js, NestJS, Express, REST APIs, WebSockets
-- Databases & Queues: PostgreSQL, pgvector, ClickHouse, Redis, Kafka, BullMQ
-- AI & Agentic Workflows: AI Agents, Multimodal AI (VLM), Claude, Antigravity IDE, Custom Skills, Cursor
-- DevOps & Testing: AWS (RDS, SQS, ECS, Lambda), Cloudflare, Docker, CI/CD (GitHub Actions, GitLab CI), Jest, Git
+- Backend & APIs: TypeScript, Node.js, NestJS, Hono, Express, REST APIs, WebSockets, Microservices
+- Data & Messaging: PostgreSQL, pgvector, PostGIS, ClickHouse, Redis, Kafka, BullMQ, Drizzle ORM, SQL
+- Frontend & Web: React 19, JavaScript, Vite, TanStack Query, Zustand, Tailwind CSS, Telegram Mini Apps, MapLibre GL
+- AI Engineering: LLM Orchestration, Multimodal AI (VLM), RAG & Vector Search, Structured Outputs, Claude Code / MCP
+- Cloud & DevOps: AWS (ECS, Lambda, RDS, SQS), GCP (Cloud Run, Cloud SQL), Cloudflare, Docker, Terraform, CI/CD (GitHub Actions, GitLab CI), Jest / Vitest
 
 ## Work Experience
 
-### Backend Developer | Blask (Jul 2024 — Jun 2026)
-- Database Engineering & Migrations: Managed complex PostgreSQL schemas, optimized analytical queries, and executed secure database updates across microservices.
-- System Integrations: Engineered resilient cross-system integration pipelines using Kafka, BullMQ, and Redis with Dead Letter Queues (DLQ).
-- Architecture & Testing: Developed scalable REST APIs with NestJS/TypeScript and comprehensive unit/E2E test suites (Jest).
-- AI-Driven Development: Utilized agentic AI workflows (Antigravity IDE, Claude) to accelerate infrastructure refactoring and automated code extraction.
+### Backend Developer | Blask, Tbilisi (Jul 2024 - Present)
+- High-Load Data & Query Tuning: Designed and optimized PostgreSQL schemas and analytical queries for a B2B iGaming market analytics platform, resolving lock contention, tuning composite and partial indexes, and executing zero-downtime data migrations across microservices.
+- Event-Driven Pipelines & Resiliency: Engineered asynchronous ingestion and cross-service synchronization pipelines using Kafka, BullMQ, and Redis with idempotent consumers, exponential backoff retries, and Dead Letter Queues (DLQ) to prevent event loss under load spikes.
+- API Architecture & Contract Testing: Built high-throughput NestJS (TypeScript) REST services with strict DTO validation and rate limiting, maintaining system reliability through automated unit and E2E test suites in Jest.
+- Legacy Decomposition & Tooling: Extracted tightly coupled domain modules into isolated services and automated schema validation, test generation, and cross-service refactoring using agentic AI workflows (Claude Code, MCP).
 
-### Full Stack Developer | DIBSCapital (Jun 2022 — Jun 2024)
-- Third-Party Integrations: Connected internal core systems with North Capital KYC, InvestReady, Stripe for secure data flow.
-- Cloud Infrastructure: Managed Node.js backend services on AWS (ECS, Lambda, RDS).
-- Feature Delivery: Built full-stack solutions combining Node.js backend with React frontend interfaces.
+### Full Stack Developer | DIBSCapital, Tel Aviv (Jun 2022 - Jun 2024)
+- Fintech & KYC Integrations: Integrated core real-estate investment workflows with regulated financial providers (North Capital escrow/KYC, InvestReady accreditation, and Stripe payments), implementing webhook signature verification, idempotency keys, and compliance audit trails.
+- AWS Cloud Infrastructure: Deployed and operated containerized Node.js backend workloads across AWS (ECS, Lambda, RDS, SQS), configuring queue-backed transaction processing and automated failure alerting.
+- Full-Stack Product Delivery: Built investor onboarding flows, portfolio dashboards, and document signing interfaces in React backed by typed Node.js and PostgreSQL REST APIs.
 
-### Backend Developer | Nublecraft (Apr 2021 — Jun 2022)
-- System Modernization & API Development: Refactored legacy codebases and built reliable REST APIs with Node.js.
+### Backend Developer | Nublecraft (Apr 2021 - Jun 2022)
+- Monolith Refactoring: Decomposed legacy Node.js monolithic modules into modular, testable service layers with structured error handling and request validation while keeping production traffic uninterrupted.
+- REST API & Database Optimization: Built and documented Node.js REST endpoints for internal and third-party consumers, optimizing slow SQL queries and database connection pooling.
 
-### Live Video Streaming Engineer | Specmedia (Mar 2017 — Jun 2020)
-- Infrastructure Management: Maintained live video streaming infrastructure and network pipelines.
-
-## Education
-- Engineer (Information Technologies & Systems in Logistics), BSUIR IIT, Minsk (2013 — 2018)
-- Rolling Scopes School (2019 — 2020)
+### Live Video Streaming Engineer | Specmedia, Minsk (Mar 2017 - Jun 2020)
+- Streaming Infrastructure: Operated low-latency live video streaming pipelines (RTMP, HLS), media transcoders, and network relays for high-concurrency broadcast events.
 
 ## Featured Projects
 
-### Ściežka — Outdoor Route-Planning Workspace ([scezka.com](https://scezka.com))
-- Role: Creator & Core Architect
-- Status: Active Project
-- Tech: TypeScript, Node.js, Turborepo, Mapbox / OpenStreetMap, Geospatial / GPX, REST API
-- Description: Full-scale outdoor routing and mapping platform designed for cycling, running, and hiking. Features custom multi-modal route planning, elevation/gradient profiling, surface analysis, automated cue sheet / roadbook generation, GPX import/export pipelines, and responsive web & mobile clients.
-
-### SplitBot (SplitBill) — Shared Expense Splitting ([botsplit.com](https://botsplit.com))
+### SplitBot: Shared Expense Splitting ([botsplit.com](https://botsplit.com))
 - Role: Creator & Full-Stack Engineer
 - Status: Production / Live
-- Tech: TypeScript, Next.js, Python (FastAPI), PostgreSQL, Redis, WebSockets, Multimodal AI (VLM), Cloudflare, Telegram Mini App
-- Description: Production-grade Telegram Mini App and bot for collaborative group expense splitting with zero-onboarding (HMAC initData). Features Multimodal Vision AI OCR receipt extraction and multi-language dish translation in a single inference pass, real-time WebSocket item claiming, multi-currency conversions, and an automated debt-simplification algorithm that minimizes settlement transfers between participants. Fully localized in 21 languages.
+- Tech: TypeScript, React 19, Vite, WebSockets, PostgreSQL, Redis, Multimodal AI (VLM), Telegram Mini App, Terraform, Cloudflare
+- Description: Production Telegram Mini App and bot for collaborative group expense splitting with zero-onboarding authentication (Telegram WebApp HMAC-SHA256 initData). Features a Multimodal Vision AI (VLM) OCR pipeline with strict JSON schema validation and arithmetic reconciliation that extracts receipt items, taxes, and tips and translates dish names across 21 languages in a single inference pass; live multi-user item claiming over WebSockets with Redis Pub/Sub fanout; and a multi-currency ledger using exact NUMERIC arithmetic deployed on GCP Cloud Run and Cloudflare via Terraform.
 
-### NeyroNews — Autonomous AI News Pipeline ([neyronews.com](https://neyronews.com))
+### NeyroNews: Autonomous AI News Pipeline ([neyronews.com](https://neyronews.com))
 - Role: Creator & System Architect
 - Status: Production / Live
-- Tech: Python, PostgreSQL (pgvector), LiteLLM, LLM Pipelines, Telegram Bot API, Docker
-- Description: Autonomous multi-agent news curation and broadcasting pipeline delivering technical AI news. Features continuous RSS/web scraping, semantic deduplication via vector embeddings (pgvector cosine similarity) and SHA-256 hashing, a two-stage LLM evaluation funnel (cheap triage scoring + flagship post synthesis), Human-in-the-Loop (HITL) moderation via Telegram inline buttons, and a scheduled publishing grid with PostgreSQL row-level concurrency control (`FOR UPDATE SKIP LOCKED`).
+- Tech: PostgreSQL, pgvector, LLM Orchestration, bge-m3 Embeddings, Telegram Bot API, Cloudflare Pages, Docker
+- Description: Autonomous AI news curation and broadcasting pipeline delivering filtered technical digests with Human-in-the-Loop editorial moderation. Continuously polls 10+ technical AI sources and eliminates duplicates in two stages: canonical URL SHA-256 hashing followed by PostgreSQL pgvector cosine distance checks (< 0.08 threshold across a 72h rolling window) using local bge-m3 embeddings. Combines a lightweight triage scorer (grading technical substance 1-10) with structured LLM synthesis, Telegram inline callback moderation, and a scheduled broadcast engine using PostgreSQL `SELECT ... FOR UPDATE SKIP LOCKED`.
+
+### Ściežka: Outdoor Route-Planning Workspace ([scezka.com](https://scezka.com))
+- Role: Creator & Core Architect
+- Status: Production / Live
+- Tech: TypeScript, Node.js 24, Hono, React 19, PostgreSQL / PostGIS, Drizzle ORM, Rust, MapLibre GL, Turborepo, GCP Cloud Run
+- Description: Outdoor route-planning workspace for cycling, running, and hiking with an interactive GIS map studio and a custom-built routing engine. Architected as a TypeScript Turborepo workspace (Node.js 24, Hono, Drizzle ORM, React 19) backed by PostgreSQL with PostGIS spatial indexing, Redis caching, and Strava OAuth2 webhook synchronization on GCP Cloud Run, alongside a high-performance routing service written in Rust (Axum, Tokio, memory-mapped OpenStreetMap PBF graphs, and DEM elevation tiles).
+
+## Education
+- Engineer (Information Technologies and Systems in Logistics), Institute of Information Technologies BSUIR, Minsk (2013 - 2018)
+- Rolling Scopes School, JavaScript / TypeScript / Node.js Specialization (Jun 2019 - 2020)
