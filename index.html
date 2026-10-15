@@ -113,6 +113,12 @@
           "creator": [
             {
               "@type": "SoftwareApplication",
+              "name": "Ściežka",
+              "url": "https://scezka.com",
+              "applicationCategory": "Geospatial Route Planning Platform"
+            },
+            {
+              "@type": "SoftwareApplication",
               "name": "SplitBot",
               "url": "https://botsplit.com",
               "applicationCategory": "Financial Expense Splitting Telegram Mini App"
@@ -122,12 +128,6 @@
               "name": "NeyroNews",
               "url": "https://neyronews.com",
               "applicationCategory": "Autonomous AI News Pipeline"
-            },
-            {
-              "@type": "SoftwareApplication",
-              "name": "Ściežka",
-              "url": "https://scezka.com",
-              "applicationCategory": "Geospatial Route Planning Platform"
             }
           ],
           "alumniOf": [
@@ -182,7 +182,7 @@
             <section class="reveal">
                 <h2><i class="ph ph-user-circle" aria-hidden="true"></i> Profile</h2>
                 <p>
-                    Backend and Full Stack Engineer with 5+ years of commercial experience specializing in TypeScript and Node.js (NestJS, Hono, Express). Track record of designing high-throughput REST and WebSocket APIs, tuning PostgreSQL and ClickHouse workloads, and operating fault-tolerant event pipelines with Kafka, BullMQ, and Redis. Experienced in zero-downtime schema migrations, legacy monolith decomposition, React web applications, and production AI pipelines (multimodal OCR, semantic vector search with <code>pgvector</code>, and multi-stage LLM orchestration). Creator of three live production systems: <a href="https://botsplit.com" target="_blank" rel="noopener">botsplit.com</a>, <a href="https://neyronews.com" target="_blank" rel="noopener">neyronews.com</a>, and <a href="https://scezka.com" target="_blank" rel="noopener">scezka.com</a>.
+                    Backend and Full Stack Engineer with 5+ years of commercial experience specializing in TypeScript and Node.js (NestJS, Hono, Express). Track record of designing high-throughput REST and WebSocket APIs, tuning PostgreSQL and ClickHouse workloads, and operating fault-tolerant event pipelines with Kafka, BullMQ, and Redis. Experienced in zero-downtime schema migrations, legacy monolith decomposition, React web applications, and production AI pipelines (multimodal OCR, semantic vector search with <code>pgvector</code>, and multi-stage LLM orchestration). Creator of three live production systems: <a href="https://scezka.com" target="_blank" rel="noopener">scezka.com</a>, <a href="https://botsplit.com" target="_blank" rel="noopener">botsplit.com</a>, and <a href="https://neyronews.com" target="_blank" rel="noopener">neyronews.com</a>.
                 </p>
             </section>
 
@@ -259,7 +259,7 @@
                 <div class="job">
                     <div class="job-header">
                         <div><span class="job-title">Backend Developer</span> | <span class="job-company">Blask, Tbilisi</span></div>
-                        <div class="job-date"><i class="ph ph-calendar-blank" aria-hidden="true"></i> Jul 2024 - Present</div>
+                        <div class="job-date"><i class="ph ph-calendar-blank" aria-hidden="true"></i> Jul 2024 - Jul 2026</div>
                     </div>
                     <ul>
                         <li><strong>High-Load Data & Query Tuning:</strong> Designed and optimized PostgreSQL schemas and analytical queries for a B2B iGaming market analytics platform, resolving lock contention, tuning composite and partial indexes, and executing zero-downtime data migrations across microservices.</li>
@@ -305,6 +305,34 @@
 
             <section id="projects" class="reveal">
                 <h2><i class="ph ph-rocket-launch" aria-hidden="true"></i> Featured Projects</h2>
+
+                <div class="job reveal">
+                    <div class="job-header">
+                        <div>
+                            <span class="job-title">Ściežka</span> | 
+                            <span class="job-company"><a href="https://scezka.com" target="_blank" rel="noopener">scezka.com <i class="ph ph-arrow-square-out" aria-hidden="true"></i></a></span>
+                        </div>
+                        <div class="job-date"><i class="ph ph-tag" aria-hidden="true"></i> Production / Live</div>
+                    </div>
+                    <p class="project-desc">Full-scale outdoor route-planning platform for cycling, running, and hiking with an interactive GIS map studio and a custom-built routing engine.</p>
+                    <ul>
+                        <li><strong>Monorepo & Spatial Backend:</strong> Architected a TypeScript Turborepo workspace (<code>Node.js 24</code>, <code>Hono</code>, <code>Drizzle ORM</code>, <code>React 19</code>) backed by PostgreSQL with <code>PostGIS</code> spatial indexing, Redis caching, and Strava OAuth2 webhook synchronization on GCP Cloud Run.</li>
+                        <li><strong>Custom Rust Routing Engine:</strong> Built a high-performance routing service in Rust (<code>Axum</code>, <code>Tokio</code>, memory-mapped OpenStreetMap PBF graphs, and DEM elevation tiles) for low-latency multi-modal pathfinding and surface analysis.</li>
+                        <li><strong>Interactive GIS Workspace:</strong> Engineered a browser mapping studio using <code>MapLibre GL</code>, <code>Zustand</code> + <code>Zundo</code> temporal undo/redo state, client-side geometry processing, GPX pipelines, and interactive elevation and gradient profiling.</li>
+                    </ul>
+                    <div class="skill-tags mt-10">
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Hono</span>
+                        <span class="tag">React 19</span>
+                        <span class="tag">PostgreSQL / PostGIS</span>
+                        <span class="tag">Drizzle ORM</span>
+                        <span class="tag">Rust</span>
+                        <span class="tag">MapLibre GL</span>
+                        <span class="tag">Turborepo</span>
+                        <span class="tag">GCP</span>
+                    </div>
+                </div>
 
                 <div class="job reveal">
                     <div class="job-header">
@@ -355,34 +383,6 @@
                         <span class="tag">Telegram Bot API</span>
                         <span class="tag">Cloudflare Pages</span>
                         <span class="tag">Docker</span>
-                    </div>
-                </div>
-
-                <div class="job reveal">
-                    <div class="job-header">
-                        <div>
-                            <span class="job-title">Ściežka</span> | 
-                            <span class="job-company"><a href="https://scezka.com" target="_blank" rel="noopener">scezka.com <i class="ph ph-arrow-square-out" aria-hidden="true"></i></a></span>
-                        </div>
-                        <div class="job-date"><i class="ph ph-tag" aria-hidden="true"></i> Production / Live</div>
-                    </div>
-                    <p class="project-desc">Outdoor route-planning workspace for cycling, running, and hiking with an interactive GIS map studio and a custom-built routing engine.</p>
-                    <ul>
-                        <li><strong>Monorepo & Spatial Backend:</strong> Architected a TypeScript Turborepo workspace (<code>Node.js 24</code>, <code>Hono</code>, <code>Drizzle ORM</code>, <code>React 19</code>) backed by PostgreSQL with <code>PostGIS</code> spatial indexing, Redis caching, and Strava OAuth2 webhook synchronization on GCP Cloud Run.</li>
-                        <li><strong>Custom Rust Routing Engine:</strong> Built a high-performance routing service in Rust (<code>Axum</code>, <code>Tokio</code>, memory-mapped OpenStreetMap PBF graphs, and DEM elevation tiles) for low-latency multi-modal pathfinding and surface analysis.</li>
-                        <li><strong>Interactive GIS Workspace:</strong> Engineered a browser mapping studio using <code>MapLibre GL</code>, <code>Zustand</code> + <code>Zundo</code> temporal undo/redo state, client-side geometry processing, GPX pipelines, and interactive elevation and gradient profiling.</li>
-                    </ul>
-                    <div class="skill-tags mt-10">
-                        <span class="tag">TypeScript</span>
-                        <span class="tag">Node.js</span>
-                        <span class="tag">Hono</span>
-                        <span class="tag">React 19</span>
-                        <span class="tag">PostgreSQL / PostGIS</span>
-                        <span class="tag">Drizzle ORM</span>
-                        <span class="tag">Rust</span>
-                        <span class="tag">MapLibre GL</span>
-                        <span class="tag">Turborepo</span>
-                        <span class="tag">GCP</span>
                     </div>
                 </div>
             </section>

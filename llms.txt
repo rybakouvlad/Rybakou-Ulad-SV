@@ -1,6 +1,6 @@
 # Uladzislau Rybakou - Backend / Full Stack Engineer
 
-> Backend and Full Stack Engineer with 5+ years of commercial experience specializing in TypeScript and Node.js (NestJS, Hono, Express), PostgreSQL, event-driven distributed systems (Kafka, BullMQ, Redis), React web applications, and production AI pipelines. Creator of botsplit.com, neyronews.com, and scezka.com.
+> Backend and Full Stack Engineer with 5+ years of commercial experience specializing in TypeScript and Node.js (NestJS, Hono, Express), PostgreSQL, event-driven distributed systems (Kafka, BullMQ, Redis), React web applications, and production AI pipelines. Creator of scezka.com, botsplit.com, and neyronews.com.
 
 ## Contact Information
 - Website: https://rybakou.com/
@@ -11,13 +11,13 @@
 ## Core Technical Skills
 - Backend & APIs: TypeScript, Node.js, NestJS, Hono, Express, REST APIs, WebSockets, Microservices
 - Data & Messaging: PostgreSQL, pgvector, PostGIS, ClickHouse, Redis, Kafka, BullMQ, Drizzle ORM, SQL
-- Frontend & Web: React 19, JavaScript, Vite, TanStack Query, Zustand, Tailwind CSS, Telegram Mini Apps, MapLibre GL
-- AI Engineering: LLM Orchestration, Multimodal AI (VLM), RAG & Vector Search, Structured Outputs, Claude Code / MCP
+- Frontend & Web: React 19, Vite, TanStack Query, Zustand, Tailwind CSS, Telegram Mini Apps, MapLibre GL
+- AI Engineering: LLM Orchestration, Multimodal AI (VLM), RAG / pgvector, Structured Outputs, Claude Code & MCP
 - Cloud & DevOps: AWS (ECS, Lambda, RDS, SQS), GCP (Cloud Run, Cloud SQL), Cloudflare, Docker, Terraform, CI/CD (GitHub Actions, GitLab CI), Jest / Vitest
 
 ## Work Experience
 
-### Backend Developer | Blask, Tbilisi (Jul 2024 - Present)
+### Backend Developer | Blask, Tbilisi (Jul 2024 - Jul 2026)
 - High-Load Data & Query Tuning: Designed and optimized PostgreSQL schemas and analytical queries for a B2B iGaming market analytics platform, resolving lock contention, tuning composite and partial indexes, and executing zero-downtime data migrations across microservices.
 - Event-Driven Pipelines & Resiliency: Engineered asynchronous ingestion and cross-service synchronization pipelines using Kafka, BullMQ, and Redis with idempotent consumers, exponential backoff retries, and Dead Letter Queues (DLQ) to prevent event loss under load spikes.
 - API Architecture & Contract Testing: Built high-throughput NestJS (TypeScript) REST services with strict DTO validation and rate limiting, maintaining system reliability through automated unit and E2E test suites in Jest.
@@ -37,6 +37,12 @@
 
 ## Featured Projects
 
+### Ściežka: Outdoor Route-Planning Platform ([scezka.com](https://scezka.com))
+- Role: Creator & Core Architect
+- Status: Production / Live
+- Tech: TypeScript, Node.js 24, Hono, React 19, PostgreSQL / PostGIS, Drizzle ORM, Rust, MapLibre GL, Turborepo, GCP Cloud Run
+- Description: Full-scale outdoor route-planning platform for cycling, running, and hiking with an interactive GIS map studio and a custom-built routing engine. Architected as a TypeScript Turborepo workspace (Node.js 24, Hono, Drizzle ORM, React 19) backed by PostgreSQL with PostGIS spatial indexing, Redis caching, and Strava OAuth2 webhook synchronization on GCP Cloud Run, alongside a high-performance routing service written in Rust (Axum, Tokio, memory-mapped OpenStreetMap PBF graphs, and DEM elevation tiles).
+
 ### SplitBot: Shared Expense Splitting ([botsplit.com](https://botsplit.com))
 - Role: Creator & Full-Stack Engineer
 - Status: Production / Live
@@ -48,12 +54,6 @@
 - Status: Production / Live
 - Tech: PostgreSQL, pgvector, LLM Orchestration, bge-m3 Embeddings, Telegram Bot API, Cloudflare Pages, Docker
 - Description: Autonomous AI news curation and broadcasting pipeline delivering filtered technical digests with Human-in-the-Loop editorial moderation. Continuously polls 10+ technical AI sources and eliminates duplicates in two stages: canonical URL SHA-256 hashing followed by PostgreSQL pgvector cosine distance checks (< 0.08 threshold across a 72h rolling window) using local bge-m3 embeddings. Combines a lightweight triage scorer (grading technical substance 1-10) with structured LLM synthesis, Telegram inline callback moderation, and a scheduled broadcast engine using PostgreSQL `SELECT ... FOR UPDATE SKIP LOCKED`.
-
-### Ściežka: Outdoor Route-Planning Workspace ([scezka.com](https://scezka.com))
-- Role: Creator & Core Architect
-- Status: Production / Live
-- Tech: TypeScript, Node.js 24, Hono, React 19, PostgreSQL / PostGIS, Drizzle ORM, Rust, MapLibre GL, Turborepo, GCP Cloud Run
-- Description: Outdoor route-planning workspace for cycling, running, and hiking with an interactive GIS map studio and a custom-built routing engine. Architected as a TypeScript Turborepo workspace (Node.js 24, Hono, Drizzle ORM, React 19) backed by PostgreSQL with PostGIS spatial indexing, Redis caching, and Strava OAuth2 webhook synchronization on GCP Cloud Run, alongside a high-performance routing service written in Rust (Axum, Tokio, memory-mapped OpenStreetMap PBF graphs, and DEM elevation tiles).
 
 ## Education
 - Engineer (Information Technologies and Systems in Logistics), Institute of Information Technologies BSUIR, Minsk (2013 - 2018)
