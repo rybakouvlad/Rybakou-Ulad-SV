@@ -53,7 +53,7 @@
 - Role: Creator & System Architect
 - Status: Production / Live
 - Tech: PostgreSQL, pgvector, LLM Orchestration, bge-m3 Embeddings, Telegram Bot API, Cloudflare Pages, Docker
-- Description: Autonomous AI news curation and broadcasting pipeline delivering filtered technical digests with Human-in-the-Loop editorial moderation. Continuously polls 10+ technical AI sources and eliminates duplicates in two stages: canonical URL SHA-256 hashing followed by PostgreSQL pgvector cosine distance checks (< 0.08 threshold across a 72h rolling window) using local bge-m3 embeddings. Combines a lightweight triage scorer (grading technical substance 1-10) with structured LLM synthesis, Telegram inline callback moderation, and a scheduled broadcast engine using PostgreSQL `SELECT ... FOR UPDATE SKIP LOCKED`.
+- Description: Autonomous AI news curation and broadcasting pipeline delivering filtered technical digests with Human-in-the-Loop editorial moderation. Continuously polls 140+ technical and industry sources and eliminates duplicates in two stages: canonical URL SHA-256 hashing followed by PostgreSQL pgvector cosine distance checks (< 0.08 threshold across a 72h rolling window) using local bge-m3 embeddings. Combines a lightweight triage scorer (grading technical substance 1-10) with structured LLM synthesis, Telegram inline callback moderation, and a scheduled broadcast engine using PostgreSQL `SELECT ... FOR UPDATE SKIP LOCKED`.
 
 ## Education
 - Engineer (Information Technologies and Systems in Logistics), Institute of Information Technologies BSUIR, Minsk (2013 - 2018)

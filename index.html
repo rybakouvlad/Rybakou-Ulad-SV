@@ -371,7 +371,7 @@
                     </div>
                     <p class="project-desc">Autonomous AI news curation and broadcasting pipeline delivering filtered technical digests with Human-in-the-Loop editorial moderation.</p>
                     <ul>
-                        <li><strong>Semantic Deduplication Pipeline:</strong> Continuously polls 10+ technical AI sources and eliminates cross-source duplicates in two stages: canonical URL <code>SHA-256</code> hashing followed by PostgreSQL <code>pgvector</code> cosine distance checks (<code>&lt; 0.08</code> threshold across a 72h rolling window) using local <code>bge-m3</code> embeddings.</li>
+                        <li><strong>Semantic Deduplication Pipeline:</strong> Continuously polls 140+ technical and industry sources and eliminates cross-source duplicates in two stages: canonical URL <code>SHA-256</code> hashing followed by PostgreSQL <code>pgvector</code> cosine distance checks (<code>&lt; 0.08</code> threshold across a 72h rolling window) using local <code>bge-m3</code> embeddings.</li>
                         <li><strong>Two-Stage LLM Evaluation Funnel:</strong> Combines a lightweight triage scorer (grading technical substance 1-10 to reject marketing fluff) with full-text extraction and structured LLM synthesis into publication-ready digests.</li>
                         <li><strong>HITL Moderation & Concurrency:</strong> Dispatches drafts to editors via Telegram inline callbacks with atomic state transitions, quorum rules, and a scheduled broadcast engine using PostgreSQL <code>SELECT ... FOR UPDATE SKIP LOCKED</code> to prevent race conditions.</li>
                     </ul>
