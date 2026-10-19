@@ -6,13 +6,14 @@
     <title>Uladzislau Rybakou - Backend / Full Stack Engineer</title>
     
     <!-- Primary Meta Tags -->
-    <meta name="description" content="Portfolio & resume of Uladzislau Rybakou, Senior Backend / Full Stack Engineer (5+ yrs) specializing in TypeScript, Node.js, NestJS, Hono, PostgreSQL, Kafka, React, and production AI pipelines.">
+    <meta name="description" content="Portfolio of Uladzislau Rybakou, Backend &amp; Full Stack Engineer (5+ yrs) specializing in TypeScript, Node.js, NestJS, Hono, PostgreSQL, Kafka, React, and AI systems.">
     <meta name="keywords" content="Uladzislau Rybakou, Vladislav Rybakou, Backend Engineer, Full Stack Engineer, TypeScript, Node.js, NestJS, Hono, React, PostgreSQL, pgvector, PostGIS, Kafka, BullMQ, Redis, AI Pipelines, Resume, Portfolio">
     <meta name="author" content="Uladzislau Rybakou">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#0f172a">
     <link rel="canonical" href="https://rybakou.com/">
     <link rel="alternate" type="text/markdown" title="Markdown for Agents" href="https://rybakou.com/llms.txt">
+    <link rel="describedby" href="https://rybakou.com/llms.txt" type="text/plain">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
 
     <!-- Open Graph / Facebook / LinkedIn / Telegram -->
@@ -46,21 +47,27 @@
         </style>
     </noscript>
 
-    <!-- JSON-LD Structured Data (Schema.org Graph: ProfilePage + Person + Projects) -->
+    <!-- JSON-LD Structured Data (Schema.org Graph: WebSite + ProfilePage + Person + Projects) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://rybakou.com/#website",
+          "url": "https://rybakou.com/",
+          "name": "Uladzislau Rybakou Portfolio",
+          "publisher": {
+            "@id": "https://rybakou.com/#person"
+          }
+        },
         {
           "@type": "ProfilePage",
           "@id": "https://rybakou.com/#profilepage",
           "url": "https://rybakou.com/",
           "name": "Uladzislau Rybakou - Backend / Full Stack Engineer",
           "isPartOf": {
-            "@type": "WebSite",
-            "@id": "https://rybakou.com/#website",
-            "url": "https://rybakou.com/",
-            "name": "Uladzislau Rybakou Portfolio"
+            "@id": "https://rybakou.com/#website"
           },
           "about": {
             "@id": "https://rybakou.com/#person"
@@ -84,7 +91,9 @@
             "addressCountry": "Georgia"
           },
           "sameAs": [
-            "https://www.linkedin.com/in/rybakou"
+            "https://www.linkedin.com/in/rybakou",
+            "https://github.com/rybakouvlad",
+            "https://x.com/UladzislauDev"
           ],
           "knowsAbout": [
             "TypeScript",
@@ -110,24 +119,26 @@
             "Multimodal AI",
             "REST APIs"
           ],
+          "founder": [
+            {
+              "@id": "https://scezka.com/#app"
+            },
+            {
+              "@id": "https://botsplit.com/#app"
+            },
+            {
+              "@id": "https://neyronews.com/#organization"
+            }
+          ],
           "creator": [
             {
-              "@type": "SoftwareApplication",
-              "name": "Ściežka",
-              "url": "https://scezka.com",
-              "applicationCategory": "Geospatial Route Planning Platform"
+              "@id": "https://scezka.com/#app"
             },
             {
-              "@type": "SoftwareApplication",
-              "name": "SplitBot",
-              "url": "https://botsplit.com",
-              "applicationCategory": "Financial Expense Splitting Telegram Mini App"
+              "@id": "https://botsplit.com/#app"
             },
             {
-              "@type": "SoftwareApplication",
-              "name": "NeyroNews",
-              "url": "https://neyronews.com",
-              "applicationCategory": "Autonomous AI News Pipeline"
+              "@id": "https://neyronews.com/#organization"
             }
           ],
           "alumniOf": [
@@ -140,6 +151,70 @@
               "name": "Rolling Scopes School"
             }
           ]
+        },
+        {
+          "@type": [
+            "SoftwareApplication",
+            "WebApplication"
+          ],
+          "@id": "https://scezka.com/#app",
+          "name": "Ściežka",
+          "alternateName": "Ścieżka",
+          "url": "https://scezka.com",
+          "applicationCategory": "Geospatial Route Planning Platform",
+          "operatingSystem": "Web",
+          "description": "Full-scale outdoor route-planning platform for cycling, running, and hiking with an interactive GIS map studio and a custom-built Rust routing engine.",
+          "author": {
+            "@id": "https://rybakou.com/#person"
+          },
+          "creator": {
+            "@id": "https://rybakou.com/#person"
+          },
+          "founder": {
+            "@id": "https://rybakou.com/#person"
+          }
+        },
+        {
+          "@type": [
+            "SoftwareApplication",
+            "WebApplication"
+          ],
+          "@id": "https://botsplit.com/#app",
+          "name": "SplitBot",
+          "alternateName": "BotSplit",
+          "url": "https://botsplit.com",
+          "applicationCategory": "Financial Expense Splitting Telegram Mini App",
+          "operatingSystem": "Web, Telegram Mini App",
+          "description": "Production Telegram Mini App and bot for collaborative group expense splitting with zero-onboarding authentication and multimodal receipt recognition.",
+          "author": {
+            "@id": "https://rybakou.com/#person"
+          },
+          "creator": {
+            "@id": "https://rybakou.com/#person"
+          },
+          "founder": {
+            "@id": "https://rybakou.com/#person"
+          }
+        },
+        {
+          "@type": [
+            "NewsMediaOrganization",
+            "WebApplication"
+          ],
+          "@id": "https://neyronews.com/#organization",
+          "name": "NeyroNews",
+          "url": "https://neyronews.com",
+          "applicationCategory": "Autonomous AI News Pipeline",
+          "description": "Autonomous AI news curation and broadcasting pipeline delivering filtered technical digests with Human-in-the-Loop editorial moderation.",
+          "author": {
+            "@id": "https://rybakou.com/#person"
+          },
+          "creator": {
+            "@id": "https://rybakou.com/#person"
+          },
+          "founder": {
+            "@id": "https://rybakou.com/#person"
+          }
         }
       ]
     }
