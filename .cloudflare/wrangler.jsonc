@@ -1,0 +1,16 @@
+{
+  "name": "rybakou-agent-edge",
+  "main": "worker.js",
+  "compatibility_date": "2026-04-01",
+  "account_id": "52d68646c57f0e963fb3d668e9c9a8dd",
+  "routes": [
+    {
+      "pattern": "rybakou.com/*",
+      "zone_name": "rybakou.com"
+    },
+    {
+      "pattern": "www.rybakou.com/*",
+      "zone_name": "rybakou.com"
+    }
+  ]
+}
