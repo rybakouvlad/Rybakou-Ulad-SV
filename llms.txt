@@ -1,6 +1,6 @@
 # Uladzislau Rybakou - Backend / Full Stack Engineer
 
-> Backend and Full Stack Engineer with 5+ years of commercial experience specializing in TypeScript and Node.js (NestJS, Hono, Express), PostgreSQL, event-driven distributed systems (Kafka, BullMQ, Redis), React web applications, and production AI pipelines. Creator of [Ściežka](https://scezka.com), [BotSplit](https://botsplit.com), and [NeyroNews](https://neyronews.com).
+> Backend and Full Stack Engineer with 5+ years of commercial experience specializing in TypeScript and Node.js (NestJS, Hono, Express), PostgreSQL, event-driven distributed systems (Kafka, BullMQ, Redis), React web applications, and production AI pipelines. Creator of [Ściežka](https://scezka.com), [SplitBill](https://botsplit.com), and [NeyroNews](https://neyronews.com).
 
 ## Contact Information
 - Website: https://rybakou.com/
@@ -45,7 +45,7 @@
 - Tech: TypeScript, Node.js 24, Hono, React 19, PostgreSQL / PostGIS, Drizzle ORM, Rust, MapLibre GL, Turborepo, GCP Cloud Run
 - Description: Full-scale outdoor route-planning platform for cycling, running, and hiking with an interactive GIS map studio and a custom-built routing engine. Architected as a TypeScript Turborepo workspace (Node.js 24, Hono, Drizzle ORM, React 19) backed by PostgreSQL with PostGIS spatial indexing, Redis caching, and Strava OAuth2 webhook synchronization on GCP Cloud Run, alongside a high-performance routing service written in Rust (Axum, Tokio, memory-mapped OpenStreetMap PBF graphs, and DEM elevation tiles).
 
-### SplitBot (BotSplit): Shared Expense Splitting ([botsplit.com](https://botsplit.com))
+### SplitBill: Shared Expense Splitting ([botsplit.com](https://botsplit.com))
 - Role: Creator & Full-Stack Engineer
 - Status: Production / Live
 - Tech: TypeScript, React 19, Vite, WebSockets, PostgreSQL, Redis, Multimodal AI (VLM), Telegram Mini App, Terraform, Cloudflare
